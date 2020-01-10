@@ -1,7 +1,22 @@
 #include <iostream>
+#include <cmath>
+using namespace std;
 
-//Write sumSqrt() here.
+double sumSqrt(int N) {
+    double y=0;
+    int i = 1;
 
+    if(N > 0){
+        while(i <= N){
+        
+        y = y+1/sqrt(i);
+        i++;
+
+    }}else{
+       y == 0;
+    }
+    return y;
+}
 
 int main()
 {
@@ -14,5 +29,5 @@ int main()
     double g = sumSqrt(-1);
     
     cout << a << "\n" << b << "\n" << c << "\n" << d << "\n" << e << "\n" << f << "\n" << g << "\n";
-
+    
 }
