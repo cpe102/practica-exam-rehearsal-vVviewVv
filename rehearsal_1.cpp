@@ -6,9 +6,9 @@ int main() {
     float G;
 
 
-    cout << "what is your name?:";
+    cout << "What is your name?:";
     cin >> name;
-    cout << "what is your GPA?:";
+    cout << "What is your GPA?:";
     cin >> G;
 
     if(G < 3.50){
